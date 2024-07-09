@@ -17,14 +17,14 @@ export const personalDetails = {
   name: "Pavan MG",
   tagline: "I build things for web",
   img: profile,
-  about: `Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+  about_1: `Lorem Ipsum is simply dummy text of the printing and typesetting industry.
   Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
   when an unknown printer took a galley of type and scrambled it to make a type specimen book.`,
 };
 
 // Enter your Social Media URLs here
 export const socialMediaUrl = {
-  linkdein: "https://www.linkedin.com/",
+  linkedin: "https://www.linkedin.com/",
   github: "https://www.github.com/",
   twitter: "https://twitter.com/",
   instagram: "https://www.instagram.com/",

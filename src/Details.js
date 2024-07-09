@@ -3,29 +3,25 @@
 import logogradient from "./assets/logo.svg";
 import logo from "./assets/logo2.svg";
 // Profile Image
-import profile from "./assets/profile.jpg";
+import profile from "./assets/profile.png";
 // Tech stack images
 import html from "./assets/techstack/html.png";
 import css from "./assets/techstack/css.png";
-import sass from "./assets/techstack/sass.png";
+import vue from "./assets/techstack/vue.webp";
 import js from "./assets/techstack/js.png";
-import react from "./assets/techstack/react.png";
-import redux from "./assets/techstack/redux.png";
 import tailwind from "./assets/techstack/tailwind.png";
-import bootstrap from "./assets/techstack/bootstrap.png";
 import vscode from "./assets/techstack/vscode.png";
-import github from "./assets/techstack/github.png";
 import git from "./assets/techstack/git.png";
-import npm from "./assets/techstack/npm.png";
 import postman from "./assets/techstack/postman.png";
-import figma from "./assets/techstack/figma.png";
+import bash from "./assets/techstack/bash.png";
+import java from "./assets/techstack/java.svg";
+import linux from "./assets/techstack/linux.svg";
+import postgresql from "./assets/techstack/postgresql.svg";
+import python from "./assets/techstack/python.svg";
 // Porject Images
-import projectImage1 from "./assets/projects/project1.jpg";
+import projectImage1 from "./assets/projects/pluxee.png";
 import projectImage2 from "./assets/projects/project2.jpg";
-import projectImage3 from "./assets/projects/project3.jpg";
-import projectImage4 from "./assets/projects/project4.jpg";
-import projectImage5 from "./assets/projects/project5.jpg";
-import projectImage6 from "./assets/projects/project6.jpg";
+import projectImage3 from "./assets/projects/sudoku.png";
 
 // Logos
 export const logos = {
@@ -35,16 +31,18 @@ export const logos = {
 
 // Enter your Personal Details here
 export const personalDetails = {
-  name: "Pavan MG",
-  tagline: "I build things for web",
+  name: "Thibaut Capuano",
+  tagline: "I am an Architect and Software Engineer at Haulogy",
   img: profile,
-  about: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.`,
+  about_1: `I specialize in engineering and developing software solutions. With a Master's in Computer Science and a specialization in Data Science, I am keen on learning more about software architecture, performance optimization, and machine learning.`,
+  about_2: `My expertise includes software engineering, agile backend development, Domain-Driven Design, and SaaS. At Haulogy, I worked as a technical analyst and developer, helping set up their energy operation management platform.`,
+  about_3: `I love problem-solving challenges, enjoy collaborative teamwork, and I'm keen on learning and growing. Currently seeking opportunities in software architecture and analysis. Feel free to reach out to discuss potential collaborations or job opportunities! 😊👩‍💻`,
 };
 
 // Enter your Social Media URLs here
 export const socialMediaUrl = {
-  linkdein: "https://www.linkedin.com/",
-  github: "https://www.github.com/",
+  linkedin: "https://www.linkedin.com/in/thibaut-capuano",
+  github: "https://www.github.com/Tib612",
   twitter: "https://twitter.com/",
   instagram: "https://www.instagram.com/",
 };
@@ -52,43 +50,64 @@ export const socialMediaUrl = {
 // Enter your Work Experience here
 export const workDetails = [
   {
-    Position: "Frontend Web Developer",
-    Company: `Company Name here`,
-    Location: "Bengaluru",
+    Position: "Architecte/Software Engineer",
+    Company: `Haulogy`,
+    Location: "Liège, Belgium",
     Type: "Full Time",
-    Duration: "Sep 2021 - Dec 2021",
+    Duration: "July 2021 - Now",
+  },
+  {
+    Position: "Machine learning developer",
+    Company: `Blacklight analytics`,
+    Location: "Liège, Belgium",
+    Type: "Full Time",
+    Duration: "Sep 2020 - July 2021",
   },
   {
     Position: "Internship",
-    Company: `Company Name here`,
-    Location: "Bengaluru",
+    Company: `Université de Montréal`,
+    Location: "Montreal, Canada",
     Type: "Internship",
-    Duration: "Sep 2021 - Dec 2021",
+    Duration: "Feb 2020 - May 2020",
+  },
+  {
+    Position: "Developer",
+    Company: `open Summer of codeopen`,
+    Location: "Brussels, Belgium",
+    Type: "Internship",
+    Duration: "July 2019 - July 2019",
   },
   {
     Position: "Internship",
-    Company: `Company Name here`,
-    Location: "Bengaluru",
+    Company: `Service public de Wallonie`,
+    Location: "Namur, Belgium",
     Type: "Internship",
-    Duration: "Sep 2021 - Dec 2021",
+    Duration: "Jan 2017 - May 2017",
   },
 ];
 
 // Enter your Education Details here
 export const eduDetails = [
   {
-    Position: "Frontend Development",
-    Company: "Udemy, YouTube, Google, Medium",
-    Location: "Online",
+    Position: "Master's degree, IT",
+    Company: "Université de Namur",
+    Location: "Namur, Belgium",
     Type: "Full Time",
-    Duration: "Jan 2022 - Present",
+    Duration: "Sept 2017 - Jun 2020",
   },
   {
-    Position: "Bachelor in Electronics & Communication",
-    Company: `Your College Name here`,
-    Location: "Bengaluru",
+    Position: "ERASMUS: Computer Science",
+    Company: "Högskolan i Halmstad",
+    Location: "Halmstad, Sweden",
     Type: "Full Time",
-    Duration: "Aug 2020 - Present",
+    Duration: "Sept 2016 - Jan 2016",
+  },
+  {
+    Position: "Bachelor's degree, IT",
+    Company: `HeNaLLux`,
+    Location: "Namur, Belgium",
+    Type: "Full Time",
+    Duration: "Sept 2014 - Jun 2017",
   },
 ];
 
@@ -97,79 +116,49 @@ export const techStackDetails = {
   html: html,
   css: css,
   js: js,
-  react: react,
-  redux: redux,
-  sass: sass,
+  vue: vue,
   tailwind: tailwind,
-  bootstrap: bootstrap,
   vscode: vscode,
   postman: postman,
-  npm: npm,
   git: git,
-  github: github,
-  figma: figma,
+  python: python,
+  postgresql: postgresql,
+  linux: linux,
+  java: java,
+  bash: bash
 };
 
 // Enter your Project Details here
 export const projectDetails = [
   {
-    title: "Project title 1",
+    title: "Pluxee API",
     image: projectImage1,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
+    description: `A python API to access Pluxee (Sodexo) balance and transactions. It also provides an asynchronous API.`,
+    techstack: "Python, Pytest",
+    previewLink: "https://pypi.org/project/pluxee-api/",
+    githubLink: "https://github.com/Tib612/pluxee-api",
   },
   {
-    title: "Project title 2",
+    title: "Finance dashboard",
     image: projectImage2,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
+    description: `A personal finance dashboard along with a python backend.`,
+    techstack: "Vue, Tailwind, Vite, HTML/CSS, JavaScript, Shadcn, Python",
+    previewLink: "",
+    githubLink: "",
   },
   {
-    title: "Project title 3",
+    title: "Sudoku solver",
     image: projectImage3,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
-  },
-  {
-    title: "Project title 4",
-    image: projectImage4,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
-  },
-  {
-    title: "Project title 5",
-    image: projectImage5,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
-  },
-  {
-    title: "Project title 6",
-    image: projectImage6,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
+    description: `Given a Sudoku problem, provide a quick solution if the sudoku is solvable along with a step by step explanation.`,
+    techstack: "HTML/CSS, PyScript",
+    previewLink: "",
+    githubLink: "",
   },
 ];
 
 // Enter your Contact Details here
 export const contactDetails = {
   email: "hi@example.com",
-  phone: "+91 12345 67890",
+  phone: "+12 345/67.89.10",
+  linkedin: "https://www.linkedin.com/in/thibaut-capuano",
 };
