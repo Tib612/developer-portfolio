@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/developer-portfolio/static/css/main.b191df24.css",
+    "main.js": "/developer-portfolio/static/js/main.87370b45.js",
+    "static/media/linux.svg": "/developer-portfolio/static/media/linux.0cb7bf4e5cb9ed5e2333d50935fad3d4.svg",
+    "static/media/bash.png": "/developer-portfolio/static/media/bash.c8dfb1563816a3e8781a.png",
+    "static/media/profile.png": "/developer-portfolio/static/media/profile.95c1dabf3541fb236f50.png",
+    "static/media/project2.jpg": "/developer-portfolio/static/media/project2.5fae296d371cc56cd98a.jpg",
+    "static/media/logo.svg": "/developer-portfolio/static/media/logo.e422ca86014ad14ed818361ce3d7a2a9.svg",
+    "static/media/sudoku.png": "/developer-portfolio/static/media/sudoku.69a63e83f8d72d4e059c.png",
+    "static/media/postgresql.svg": "/developer-portfolio/static/media/postgresql.7f69300e20bea0f64899de4d79a5f0d3.svg",
+    "static/media/logo2.svg": "/developer-portfolio/static/media/logo2.b34d54a6d84876ef2b4fa457fa569c06.svg",
+    "static/media/vue.webp": "/developer-portfolio/static/media/vue.57cb7735912d47dd5742.webp",
+    "static/media/python.svg": "/developer-portfolio/static/media/python.849d0b2b5f1ec20f077dd267498bd536.svg",
+    "static/media/java.svg": "/developer-portfolio/static/media/java.a751bad6c81431ab4dd6fa6632a65540.svg",
+    "index.html": "/developer-portfolio/index.html",
+    "main.b191df24.css.map": "/developer-portfolio/static/css/main.b191df24.css.map",
+    "main.87370b45.js.map": "/developer-portfolio/static/js/main.87370b45.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b191df24.css",
+    "static/js/main.87370b45.js"
+  ]
+}
