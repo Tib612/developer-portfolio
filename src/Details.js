@@ -20,7 +20,7 @@ import postgresql from "./assets/techstack/postgresql.svg";
 import python from "./assets/techstack/python.svg";
 // Porject Images
 import projectImage1 from "./assets/projects/pluxee.png";
-import projectImage2 from "./assets/projects/project2.jpg";
+import projectImage2 from "./assets/projects/finfin.png";
 import projectImage3 from "./assets/projects/sudoku.png";
 
 // Logos
