@@ -22,6 +22,7 @@ import python from "./assets/techstack/python.svg";
 import projectImage1 from "./assets/projects/pluxee.png";
 import projectImage2 from "./assets/projects/finfin.png";
 import projectImage3 from "./assets/projects/sudoku.png";
+import projectImage4 from "./assets/projects/raspberry.jpg";
 
 // Logos
 export const logos = {
