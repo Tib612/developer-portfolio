@@ -147,6 +147,14 @@ export const projectDetails = [
     githubLink: "",
   },
   {
+    title: "Home server",
+    image: projectImage4,
+    description: `A home server accessible through VPN hosting a NAS, RetroPie, MariaDB, Webserver and Seedbox.`,
+    techstack: "Shell",
+    previewLink: "",
+    githubLink: "",
+  },
+  {
     title: "Sudoku solver",
     image: projectImage3,
     description: `Given a Sudoku problem, provide a quick solution if the sudoku is solvable along with a step by step explanation.`,
