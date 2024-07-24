@@ -22,7 +22,8 @@ import python from "./assets/techstack/python.svg";
 import projectImage1 from "./assets/projects/pluxee.png";
 import projectImage2 from "./assets/projects/finfin.png";
 import projectImage3 from "./assets/projects/sudoku.png";
-import projectImage4 from "./assets/projects/homeautomation.png";
+import projectImage4 from "./assets/projects/raspberry.jpg";
+import projectImage5 from "./assets/projects/homeautomation.png";
 
 // Logos
 export const logos = {
@@ -155,6 +156,14 @@ export const projectDetails = [
     githubLink: "",
   },
   {
+    title: "Home server",
+    image: projectImage4,
+    description: `A home server accessible through VPN hosting a NAS, RetroPie, MariaDB, Webserver, Home automation, Seedbox and much more.`,
+    techstack: "Shell",
+    previewLink: "",
+    githubLink: "",
+  },
+  {
     title: "Sudoku solver",
     image: projectImage3,
     description: `Given a Sudoku problem, provide a quick solution if the sudoku is solvable along with a step by step explanation.`,
@@ -164,7 +173,7 @@ export const projectDetails = [
   },
   {
     title: "Home automation Pluxee integration",
-    image: projectImage4,
+    image: projectImage5,
     description: `Helped on developing and maintaining a HA module to display Pluxee balance on a dashboard.`,
     techstack: "Python",
     previewLink: "https://github.com/Tib612/ha-custom-component-sodexo-be",
