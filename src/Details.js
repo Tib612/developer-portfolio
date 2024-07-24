@@ -22,6 +22,7 @@ import python from "./assets/techstack/python.svg";
 import projectImage1 from "./assets/projects/pluxee.png";
 import projectImage2 from "./assets/projects/finfin.png";
 import projectImage3 from "./assets/projects/sudoku.png";
+import projectImage4 from "./assets/projects/homeautomation.png";
 
 // Logos
 export const logos = {
@@ -50,11 +51,18 @@ export const socialMediaUrl = {
 // Enter your Work Experience here
 export const workDetails = [
   {
+    Position: "Analyst",
+    Company: `5th Floor Software`,
+    Location: "Watermael-Boitsfort , Belgium",
+    Type: "Full Time",
+    Duration: "August 2024 - Now",
+  },
+  {
     Position: "Architecte/Software Engineer",
     Company: `Haulogy`,
     Location: "Liège, Belgium",
     Type: "Full Time",
-    Duration: "July 2021 - Now",
+    Duration: "July 2021 - July 2024",
   },
   {
     Position: "Machine learning developer",
@@ -153,6 +161,14 @@ export const projectDetails = [
     techstack: "HTML/CSS, PyScript",
     previewLink: "",
     githubLink: "",
+  },
+  {
+    title: "Home automation Pluxee integration",
+    image: projectImage4,
+    description: `Helped on developing and maintaining a HA module to display Pluxee balance on a dashboard.`,
+    techstack: "Python",
+    previewLink: "https://github.com/Tib612/ha-custom-component-sodexo-be",
+    githubLink: "https://github.com/Tib612/ha-custom-component-sodexo-be",
   },
 ];
 
