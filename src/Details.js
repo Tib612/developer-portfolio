@@ -24,7 +24,7 @@ import projectImage2 from "./assets/projects/finfin.png";
 import projectImage3 from "./assets/projects/sudoku.png";
 import projectImage4 from "./assets/projects/raspberry.jpg";
 import projectImage5 from "./assets/projects/homeautomation.png";
-
+import projectImage6 from "./assets/projects/project3.jpg";
 // Logos
 export const logos = {
   logogradient: logogradient,
@@ -158,7 +158,7 @@ export const projectDetails = [
   {
     title: "Home server",
     image: projectImage4,
-    description: `A home server accessible through VPN hosting a NAS, RetroPie, MariaDB, Webserver, Home automation, Seedbox and much more.`,
+    description: `A home server accessible through VPN hosting a NAS, RetroPie, Picture server, Home assistant, Seedbox...`,
     techstack: "Shell",
     previewLink: "",
     githubLink: "",
@@ -172,12 +172,20 @@ export const projectDetails = [
     githubLink: "",
   },
   {
-    title: "Home automation Pluxee integration",
+    title: "Hass Pluxee integration",
     image: projectImage5,
-    description: `Helped on developing and maintaining a HA module to display Pluxee balance on a dashboard.`,
+    description: `Helped on developing and maintaining a Home assistant module to display Pluxee balance on a dashboard.`,
     techstack: "Python",
     previewLink: "https://github.com/Tib612/ha-custom-component-sodexo-be",
     githubLink: "https://github.com/Tib612/ha-custom-component-sodexo-be",
+  },
+  {
+    title: "Smart mirror",
+    image: projectImage6,
+    description: `Build and configure a smart mirror using Home assistant. It displays agenda, meteo and todo list`,
+    techstack: "Raspberry, Home assistant, Shell",
+    previewLink: "",
+    githubLink: "",
   },
 ];
 
