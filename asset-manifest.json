@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/developer-portfolio/static/css/main.aa050bf6.css",
-    "main.js": "/developer-portfolio/static/js/main.c0949155.js",
+    "main.js": "/developer-portfolio/static/js/main.5bb78ee3.js",
     "static/media/raspberry.jpg": "/developer-portfolio/static/media/raspberry.7fd0b2636c5fdbdff582.jpg",
     "static/media/homeautomation.png": "/developer-portfolio/static/media/homeautomation.d16ee475eb688c01ac81.png",
     "static/media/linux.svg": "/developer-portfolio/static/media/linux.0cb7bf4e5cb9ed5e2333d50935fad3d4.svg",
@@ -16,12 +16,13 @@
     "static/media/vue.webp": "/developer-portfolio/static/media/vue.57cb7735912d47dd5742.webp",
     "static/media/python.svg": "/developer-portfolio/static/media/python.849d0b2b5f1ec20f077dd267498bd536.svg",
     "static/media/java.svg": "/developer-portfolio/static/media/java.a751bad6c81431ab4dd6fa6632a65540.svg",
+    "static/media/sqlite.svg": "/developer-portfolio/static/media/sqlite.66d55e474b5e3ef5df8aae669788bcd9.svg",
     "index.html": "/developer-portfolio/index.html",
     "main.aa050bf6.css.map": "/developer-portfolio/static/css/main.aa050bf6.css.map",
-    "main.c0949155.js.map": "/developer-portfolio/static/js/main.c0949155.js.map"
+    "main.5bb78ee3.js.map": "/developer-portfolio/static/js/main.5bb78ee3.js.map"
   },
   "entrypoints": [
     "static/css/main.aa050bf6.css",
-    "static/js/main.c0949155.js"
+    "static/js/main.5bb78ee3.js"
   ]
 }
