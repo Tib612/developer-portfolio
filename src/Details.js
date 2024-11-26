@@ -17,6 +17,7 @@ import bash from "./assets/techstack/bash.png";
 import java from "./assets/techstack/java.svg";
 import linux from "./assets/techstack/linux.svg";
 import postgresql from "./assets/techstack/postgresql.svg";
+import sqlite from "./assets/techstack/sqlite.svg";
 import python from "./assets/techstack/python.svg";
 // Porject Images
 import projectImage1 from "./assets/projects/pluxee.png";
@@ -34,11 +35,11 @@ export const logos = {
 // Enter your Personal Details here
 export const personalDetails = {
   name: "Thibaut Capuano",
-  tagline: "I am an Architect and Software Engineer at Haulogy",
+  tagline: "I am an Analyst at 5th Floor",
   img: profile,
   about_1: `I specialize in engineering and developing software solutions. With a Master's in Computer Science and a specialization in Data Science, I am keen on learning more about software architecture, performance optimization, and machine learning.`,
-  about_2: `My expertise includes software engineering, agile backend development, Domain-Driven Design, and SaaS. At Haulogy, I worked as a technical analyst and developer, helping set up their energy operation management platform.`,
-  about_3: `I love problem-solving challenges, enjoy collaborative teamwork, and I'm keen on learning and growing. Currently seeking opportunities in software architecture and analysis. Feel free to reach out to discuss potential collaborations or job opportunities! 😊👩‍💻`,
+  about_2: `My expertise includes software engineering, agile backend development, Domain-Driven Design, and SaaS. I worked as a technical analyst and developer for multiple years, helping set up energy operation management platform. I now work as an analyst at 5th Floor contributing to the development of a business management SaaS tailored for nurseries and child-related centers.`,
+  about_3: `I love problem-solving challenges, enjoy collaborative teamwork, and I'm keen on learning and growing. 👩‍💻` // Currently seeking opportunities in software architecture and analysis. Feel free to reach out to discuss potential collaborations or job opportunities! 😊👩‍💻`,
 };
 
 // Enter your Social Media URLs here
@@ -133,6 +134,7 @@ export const techStackDetails = {
   python: python,
   postgresql: postgresql,
   linux: linux,
+  sqlite: sqlite,
   java: java,
   bash: bash
 };
@@ -150,7 +152,7 @@ export const projectDetails = [
   {
     title: "Finance dashboard",
     image: projectImage2,
-    description: `A personal finance dashboard along with a python backend.`,
+    description: `A personal finance dashboard along with a python backend and per user DB.`,
     techstack: "Vue, Tailwind, Vite, HTML/CSS, JavaScript, Shadcn, Python",
     previewLink: "",
     githubLink: "",

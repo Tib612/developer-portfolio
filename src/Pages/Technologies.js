@@ -14,6 +14,7 @@ function Technologies() {
     python,
     postgresql,
     linux,
+    sqlite,
     java,
     bash
     } = techStackDetails;
@@ -33,6 +34,7 @@ function Technologies() {
       <section className="grid grid-cols-4 md:grid-cols-5 lg:grid-cols-6 items-center gap-10 pt-6">
         <img src={python} title="python" alt="" />
         <img src={postgresql} title="postgresql" alt="" />
+        <img src={sqlite} title="sqlite" alt="" />
         <img src={java} title="java" alt="" />
         <img src={bash} title="bash" alt="" />
       </section>
